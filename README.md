@@ -1,11 +1,11 @@
 # Mafia Web App – Instrukcja dla GMów
 
-Witaj w aplikacji do prowadzenia gry **Mafia** 🎭.  
+Witaj w aplikacji do prowadzenia gry **Mafia**.  
 Ten dokument jest przeznaczony dla Mistrzów Gry (GM), którzy prowadzą rozgrywki za pomocą tej aplikacji.
 
 ---
 
-## 🔑 Logowanie i dołączenie do gry
+## Logowanie i dołączenie do gry
 
 1. Otwórz stronę aplikacji (link dostarczony przez admina).
 2. Wpisz swój **nick** oraz wybierz rolę **GM** (Game Master).
@@ -13,7 +13,7 @@ Ten dokument jest przeznaczony dla Mistrzów Gry (GM), którzy prowadzą rozgryw
 
 ---
 
-## 🎲 Przygotowanie lobby
+## Przygotowanie lobby
 
 - GM tworzy nowe **lobby gry**.
 - Gracze dołączają do lobby wpisując ten sam **ID pokoju**.
@@ -23,7 +23,7 @@ Ten dokument jest przeznaczony dla Mistrzów Gry (GM), którzy prowadzą rozgryw
 
 ---
 
-## 🌙 Przebieg gry – fazy dnia i nocy
+## Przebieg gry – fazy dnia i nocy
 
 Gra podzielona jest na fazy:
 
@@ -36,28 +36,7 @@ GM steruje fazami, klikając odpowiednie przyciski:
 
 ---
 
-## 🛠️ Funkcje ról specjalnych
-
-### 👮 Policjant
-- W nocy wybiera gracza do sprawdzenia – GM widzi, czy jest pozytywny (🟢), neutralny (🟡) czy negatywny (🔴).
-
-### 🪦 Grabarz
-- Może raz w grze przejąć rolę zmarłego gracza.
-- Po wykorzystaniu umiejętności Grabarz nie budzi się ponownie.
-- W panelu GM pojawia się informacja, jaką rolę przejął.
-
-### 🎯 Snajper
-- Zaczyna z **1 pociskiem**.
-- W nocy GM wybiera, w kogo Snajper strzela.
-- Zasady:
-  - trafienie w rolę negatywną (🔴) → Snajper dostaje **kolejny pocisk** następnego ranka.
-  - trafienie w rolę neutralną (🟡) → Snajper **nie dostaje** kolejnego pocisku i już się nie budzi.
-  - trafienie w rolę pozytywną (🟢) → Snajper ginie razem z ofiarą.
-- GM w panelu widzi zawsze, w kogo Snajper strzelił i jaka była rola ofiary.
-
----
-
-## 📋 Panel GM
+## Panel GM
 
 GM ma dodatkowe widoki i funkcje:
 - podgląd wszystkich ról i statusów graczy,
@@ -67,7 +46,7 @@ GM ma dodatkowe widoki i funkcje:
 
 ---
 
-## 🔄 Reset gry (powrót do lobby)
+## Reset gry (powrót do lobby)
 
 - GM może w dowolnym momencie kliknąć **Reset gry**.
 - Reset powoduje:
@@ -77,7 +56,7 @@ GM ma dodatkowe widoki i funkcje:
 
 ---
 
-## 💡 Dodatkowe funkcjonalności
+## Dodatkowe funkcjonalności
 
 - **Log narracyjny** – na dole widoczne są podsumowania akcji specjalnych (np. strzał Snajpera, wybór Grabarza).
 - **Synchronizacja stanu** – GM i gracze widzą na bieżąco aktualizacje.
@@ -85,7 +64,7 @@ GM ma dodatkowe widoki i funkcje:
 
 ---
 
-## 🐛 Zgłaszanie błędów i pomysłów
+## Zgłaszanie błędów i pomysłów
 
 Chcesz zgłosić błąd lub zaproponować nowy feature?
 
@@ -97,11 +76,11 @@ Chcesz zgłosić błąd lub zaproponować nowy feature?
    - kroki do odtworzenia problemu,
    - ewentualne screeny.
 
-➡️ Dzięki temu wszystkie zgłoszenia będą uporządkowane i łatwe do śledzenia.
+ Dzięki temu wszystkie zgłoszenia będą uporządkowane i łatwe do śledzenia.
 
 ---
 
-## ✅ Podsumowanie
+## Podsumowanie
 
 Ta aplikacja ma na celu uproszczenie prowadzenia gry Mafia przez internet.  
 Rolą GM jest:
@@ -110,4 +89,4 @@ Rolą GM jest:
 - zarządzać fazami dnia i nocy,
 - dbać o narrację i klimat rozgrywki.
 
-Miłej gry! 🎉
+Miłej gry! 
