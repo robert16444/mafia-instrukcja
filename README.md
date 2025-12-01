@@ -1,92 +1,168 @@
-# Mafia Web App – Instrukcja dla GMów
+# Mafia Web App – Instrukcja dla GM-ów
 
 Witaj w aplikacji do prowadzenia gry **Mafia**.  
-Ten dokument jest przeznaczony dla Mistrzów Gry (GM), którzy prowadzą rozgrywki za pomocą tej aplikacji.
+Ten dokument jest przeznaczony dla Mistrzów Gry (GM), którzy prowadzą rozgrywki przy pomocy tej aplikacji.
+
+> **Hasło GM** znają GM-owie. Jeśli go nie masz – **zapytać Mańka**.  
+> Aplikacja zapamiętuje sesję – **odświeżenie karty nie wyrzuca z gry**. W prawym górnym rogu jest przycisk **Wyjdź** (powrót do ekranu logowania i wyczyszczenie sesji).
 
 ---
 
 ## Logowanie i dołączenie do gry
 
-1. Otwórz stronę aplikacji (link dostarczony przez admina).
-2. Wpisz swój **nick** oraz wybierz rolę **GM** (Game Master).
-3. Pozostali gracze logują się, wpisując swój nick i wybierając **Gracz**.
+1. Otwórz stronę aplikacji (link od admina).
+2. Wpisz **nick**, zaznacz **GM** i podaj **hasło GM**.
+3. Gracze logują się, wpisując **nick** i wybierając **Gracz**.
+4. Po odświeżeniu karty GM i gracze **automatycznie wracają** do gry.  
+   W razie potrzeby użyj **Wyjdź** (prawy górny róg), aby wrócić do ekranu logowania.
 
 ---
 
 ## Przygotowanie lobby
 
-- GM tworzy nowe **lobby gry**.
-- Gracze dołączają do lobby wpisując ten sam **ID pokoju**.
-- GM widzi listę graczy w lobby.
-- GM przydziela każdemu **rolę** (np. Mafia, Policjant, Snajper, Grabarz itd.).
-- Kliknięciem przycisku **Rozpocznij grę** – gra startuje.
+- GM tworzy/wybiera **ID pokoju**. Gracze dołączają, wpisując to samo ID.
+- Gracze trafiają do **poczekalni**, a GM ich **akceptuje/odrzuca**.
+- GM **przydziela role** oraz — w razie potrzeby — **oznaczenia/statusy** (patrz niżej).
+- **Sąsiedzi**: **zawsze wybierz 2 sąsiadów**.
+- **Siostry (Kawaii/Kowai)**: po wyborze jednej **druga wybiera się automatycznie**.
+- Kliknięcie **Rozpocznij grę** — start rozgrywki.
 
 ---
 
 ## Przebieg gry – fazy dnia i nocy
 
-Gra podzielona jest na fazy:
+- **Dzień** – dyskusja, **nominacje** i **głosowania** (egzekucja).
+- **Noc** – role budzą się wg **Kolejności budzenia**.
 
-- **Dzień** ☀️ – gracze dyskutują i mogą głosować na osoby do eliminacji.
-- **Noc** 🌙 – poszczególne role budzą się według kolejki.
+W panelu **Fazy dnia**:
+- przełączasz **Dzień/Noc**; **zmiana fazy resetuje elementy drugiej fazy**, więc **pilnuj kolejności i klikania**,
+- w Dniu obsługujesz nominacje → głosowanie → egzekucję,
+- w Nocy budzisz role (pojedynczo lub grupowo) i moderujesz ich czaty oraz akcje.
 
-GM steruje fazami, klikając odpowiednie przyciski:
-- **Rozpocznij noc / dzień**
-- **Obudź rolę (wg kolejki)** – GM budzi kolejne role zgodnie z ustalonym porządkiem.
+> **Uwaga:** część przycisków jest **aktywna/nieaktywna** zależnie od **fazy** i **warunków** (np. Snajper tylko z amunicją).
 
 ---
 
-## Panel GM
+## Panel GM (omówienie paneli)
 
-GM ma dodatkowe widoki i funkcje:
-- podgląd wszystkich ról i statusów graczy,
-- kontrolę nad kolejką budzenia ról w nocy,
-- informacje o akcjach specjalnych (np. Snajper strzelił, Grabarz przejął rolę),
-- przyciski do resetowania gry.
+### 1) Lobby / Poczekalnia
+- Lista oczekujących: **Akceptuj/Odrzuć**.
+- Wstępne przydzielanie ról i oznaczeń.
+- Podgląd liczby graczy, ról i statusów.
+
+### 2) Fazy dnia
+- **Przełączanie Dzień/Noc** (pamiętaj: każda zmiana **czyści** elementy drugiej fazy).
+- **Dzień**: nominacje → głosowanie → egzekucja.
+- **Noc**: szybkie budzenie ról i podgląd logów nocnych.
+- Opisy pod przyciskami podpowiadają, **co można robić w danej fazie**.
+
+### 3) Kolejność budzenia (noc)
+- **Przeciągaj i upuszczaj** role, aby ustawić kolejkę budzenia.
+- Po edycji **kliknij Zapisz**.
+- Możesz **usunąć** rolę z kolejki i później **przywrócić**.
+- Dla części ról dostępne jest:
+  - **budzenie pojedyncze** (GM klika *Następny gracz*),
+  - **budzenie grupowe** (wszyscy członkowie naraz).
+
+### 4) Czaty ról + sterowanie mocami
+- Każda rola ma **czat**; pod czatem mogą być **przyciski sterowania mocą** (jeśli dana rola to wspiera).
+- GM może **ukryć treść kanału „Zgon”** u siebie.
+
+### 5) Wydarzenia specjalne
+- **Mikołajki** – aktywacja mocy/eventu (np. przydziały/prezenty).
+- **Yandere** – wybór **senpaja**, tryb „Enraged”.
+- **KPNa** – rozpoczęcie **kamień–papier–nożyce** między dowolnymi osobami.
+- **Błazen** – **kradzież karty Błazna**.
+- **Kochankowie** – utworzenie pary w dowolnym momencie.
+
+### 6) Narracja i logi
+- **Log narracyjny** – podsumowania akcji (strzały, przejęcia ról itp.).
+- Dodatkowe logi (np. **Snajper**, **Grabarz**).
+
+### 7) PM / Wiadomości prywatne
+- GM może **pisać do graczy na priv** w dowolnym momencie (zliczane nieprzeczytane).
+
+### 8) Reset / Narzędzia
+- **Reset gry** – czyści logi, zamyka czaty ról i wraca do **poczekalni**.
 
 ---
 
 ## Reset gry (powrót do lobby)
 
-- GM może w dowolnym momencie kliknąć **Reset gry**.
-- Reset powoduje:
-  - wyczyszczenie logów (akcje Snajpera, Grabarza, narracji),
-  - przywrócenie lobby do stanu początkowego,
-  - gracze wracają do widoku poczekalni.
+- Kliknij **Reset gry** (panel GM).
+- Skutki:
+  - czyszczenie logów (Snajper, Grabarz, narracja),
+  - zamknięcie czatów ról,
+  - powrót do **poczekalni**.
+- **Zgon** można **cofnąć tylko w tej samej fazie** (tej samej nocy/dniu). Po zmianie fazy jest **permanentny**.
 
 ---
 
 ## Dodatkowe funkcjonalności
 
-- **Log narracyjny** – na dole widoczne są podsumowania akcji specjalnych (np. strzał Snajpera, wybór Grabarza).
-- **Synchronizacja stanu** – GM i gracze widzą na bieżąco aktualizacje.
-- **Blokady ról** – Snajper budzi się tylko, jeśli ma amunicję. Grabarz tylko, jeśli nie użył jeszcze mocy.
+- **Auto-powrót po odświeżeniu** (GM i gracze) + **Wyjdź** (prawy górny róg).
+- **Synchronizacja stanu** w czasie rzeczywistym.
+- **Role z limitami/blokadami** – niektóre przyciski działają tylko przy spełnionych warunkach (np. Snajper z amunicją, Szekspir tylko **Noc 1**).
+
+---
+
+## Oznaczenia i statusy (co kontroluje GM)
+
+> System wspiera automatycznie część efektów, ale **to GM odpowiada za poprawny stan gry** (nadawanie, zdejmowanie, rozstrzyganie sporów).
+
+### Zasady ogólne
+- **Ojciec Chrzestny** to **oznaczenie** – aby dodać go **w trakcie gry**, **nadaj oznaczenie** wybranemu graczowi.
+- **Zawsze wybierz 2 sąsiadów**.
+- **Siostry (Kawaii/Kowai)**: po wyborze jednej **druga wybiera się automatycznie**.
+
+### Kategorie oznaczeń (z przykładami)
+
+- **Jednoosobowe (może je mieć tylko 1 osoba):**  
+  **Ojciec Chrzestny**, **Senpai (Yandere)**.
+- **Czasowe (znikają po 1 nocy/dniu):**  
+  **Wyciszenie** (Ksiądz / Potato / ChocoPotato), **efekt Lunatyka**.
+- **Powiązane (znikają po śmierci roli/partnera):**  
+  **Kochankowie**, zależności **Kanibala** z frakcją (Mafia/Policja).
+
+---
+
+## Role – specjalne mechaniki (wdrożone przykładowo)
+
+- **Snajper** – budzi się tylko z **amunicją**; strzały w logu; po wykorzystaniu zasobów blokuje się.
+- **Grabarz** – **jednorazowo** przejmuje rolę zmarłego; po użyciu mocy zablokowany do końca gry.
+- **Lunatyk** – wybiera rolę na **jedną noc** i jest traktowany jak obudzony z tą rolą.
+- **Szekspir** – budzi się **wyłącznie w Nocy 1**, jeśli taka rola żyje.
+- **Hetera / Ojciec Chrzestny** – **Ojciec Chrzestny** to oznaczenie mafijne (nadaj ręcznie); interakcje z czatem mafii.
+- **Mafia / Policjant** – budzenie **grupowe**; w **Kolejności budzenia** można przełączyć na budzenie **pojedyncze**.
+- **Ksiądz / Potato / ChocoPotato** – statusy **Wyciszenia** (czasowe).
+- **Mikołajki / Yandere / Błazen / KPNa** – uruchamiane z **Wydarzeń specjalnych**.
+
+> Wersje stołowe mogą się różnić — aplikacja pomaga, ale **zasady stołu mają pierwszeństwo**.
 
 ---
 
 ## Zgłaszanie błędów i pomysłów
 
-Chcesz zgłosić błąd lub zaproponować nowy feature?
-
-1. Wejdź na stronę repozytorium (GitHub).
-2. Kliknij zakładkę **Issues**.
-3. Kliknij **New Issue**.
-4. Opisz:
-   - co się wydarzyło (lub czego brakuje),
-   - kroki do odtworzenia problemu,
-   - ewentualne screeny.
-
- Dzięki temu wszystkie zgłoszenia będą uporządkowane i łatwe do śledzenia.
+1. Wejdź do repozytorium (GitHub) → **Issues** → **New Issue**.
+2. Opisz:
+   - co się wydarzyło / czego brakuje,
+   - kroki do odtworzenia,
+   - screeny (jeśli możesz).
 
 ---
 
 ## Podsumowanie
 
-Ta aplikacja ma na celu uproszczenie prowadzenia gry Mafia przez internet.  
-Rolą GM jest:
-- przygotować lobby,
-- przypisać role,
-- zarządzać fazami dnia i nocy,
-- dbać o narrację i klimat rozgrywki.
+Aplikacja upraszcza prowadzenie Mafii online. Zadania GM-a:
 
-Miłej gry! 
+- przygotować lobby i **przydzielić role**,
+- **zarządzać fazami** dnia i nocy,
+- dbać o **oznaczenia/statusy** i zależności między rolami,
+- korzystać z **Kolejności budzenia**, **Czatów ról** (ze sterowaniem mocą), **Wydarzeń specjalnych**,
+- prowadzić narrację i klimat.
+
+**Nie znasz hasła GM? Zapytaj Mańka.**  
+**Odświeżenie nie wyrzuca**, a **Wyjdź** (prawy górny róg) wraca do logowania.  
+**Niektóre guziki działają tylko w odpowiedniej fazie/sytuacji** — to normalne.
+
+Miłej gry! 🎭
