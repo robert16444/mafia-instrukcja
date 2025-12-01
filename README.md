@@ -20,8 +20,8 @@ Ten dokument jest przeznaczony dla Mistrzów Gry (GM), którzy prowadzą rozgryw
 
 ## Przygotowanie lobby
 
-- GM tworzy/wybiera **ID pokoju**. Gracze dołączają, wpisując to samo ID.
-- Gracze trafiają do **poczekalni**, a GM ich **akceptuje/odrzuca**.
+- GM tworzy **lobby**. Gracze dołączają, używając linku dostarczonego przez GMa.
+- Gracze trafiają do **poczekalni**, gdzie są do momentu rozpoczęcia gry. Mogą dołączyć też po starcie gry, ale to GM ich wtedy **akceptuje/odrzuca**.
 - GM **przydziela role** oraz — w razie potrzeby — **oznaczenia/statusy** (patrz niżej).
 - **Sąsiedzi**: **zawsze wybierz 2 sąsiadów**.
 - **Siostry (Kawaii/Kowai)**: po wyborze jednej **druga wybiera się automatycznie**.
@@ -69,17 +69,18 @@ W panelu **Fazy dnia**:
 - GM może **ukryć treść kanału „Zgon”** u siebie.
 
 ### 5) Wydarzenia specjalne
-- **Mikołajki** – aktywacja mocy/eventu (np. przydziały/prezenty).
-- **Yandere** – wybór **senpaja**, tryb „Enraged”.
-- **KPNa** – rozpoczęcie **kamień–papier–nożyce** między dowolnymi osobami.
-- **Błazen** – **kradzież karty Błazna**.
-- **Kochankowie** – utworzenie pary w dowolnym momencie.
+- **Idą święta** – aktywacja mocy Mikołajki.
+- **Zemsta Yandere** – użyć po śmierci **Senpaia** - Yandere staje się czerwona i zaczyna zabijać co noc.
+- **KPN** – rozpoczęcie **kamień–papier–nożyce** między dowolnymi osobami z dowolnego powodu.
+- **Błazen - kradzież karty** – **kradzież karty Błazna**.
+- **Tworzenie kochanków** – utworzenie pary w dowolnym momencie.
 
 ### 6) Narracja i logi
 - **Log narracyjny** – podsumowania akcji (strzały, przejęcia ról itp.).
 - Dodatkowe logi (np. **Snajper**, **Grabarz**).
+- Znajduje się na samym dole strony.
 
-### 7) PM / Wiadomości prywatne
+### 7) Prywatny chat z graczem
 - GM może **pisać do graczy na priv** w dowolnym momencie (zliczane nieprzeczytane).
 
 ### 8) Reset / Narzędzia
@@ -117,12 +118,9 @@ W panelu **Fazy dnia**:
 
 ### Kategorie oznaczeń (z przykładami)
 
-- **Jednoosobowe (może je mieć tylko 1 osoba):**  
-  **Ojciec Chrzestny**, **Senpai (Yandere)**.
-- **Czasowe (znikają po 1 nocy/dniu):**  
-  **Wyciszenie** (Ksiądz / Potato / ChocoPotato), **efekt Lunatyka**.
-- **Powiązane (znikają po śmierci roli/partnera):**  
-  **Kochankowie**, zależności **Kanibala** z frakcją (Mafia/Policja).
+- **Jednoosobowe (może je mieć tylko 1 osoba),**  
+- **Czasowe (znikają po 1 nocy/dniu),** 
+- **Powiązane (znikają po śmierci roli/partnera).**
 
 ---
 
@@ -131,13 +129,9 @@ W panelu **Fazy dnia**:
 - **Snajper** – budzi się tylko z **amunicją**; strzały w logu; po wykorzystaniu zasobów blokuje się.
 - **Grabarz** – **jednorazowo** przejmuje rolę zmarłego; po użyciu mocy zablokowany do końca gry.
 - **Lunatyk** – wybiera rolę na **jedną noc** i jest traktowany jak obudzony z tą rolą.
-- **Szekspir** – budzi się **wyłącznie w Nocy 1**, jeśli taka rola żyje.
+- **Szekspir** – budzi się **wyłącznie w Nocy 1**.
 - **Hetera / Ojciec Chrzestny** – **Ojciec Chrzestny** to oznaczenie mafijne (nadaj ręcznie); interakcje z czatem mafii.
-- **Mafia / Policjant** – budzenie **grupowe**; w **Kolejności budzenia** można przełączyć na budzenie **pojedyncze**.
-- **Ksiądz / Potato / ChocoPotato** – statusy **Wyciszenia** (czasowe).
-- **Mikołajki / Yandere / Błazen / KPNa** – uruchamiane z **Wydarzeń specjalnych**.
-
-> Wersje stołowe mogą się różnić — aplikacja pomaga, ale **zasady stołu mają pierwszeństwo**.
+- **Snajper** – budzenie **grupowe**; w **Kolejności budzenia** można przełączyć na budzenie **pojedyncze**.
 
 ---
 
