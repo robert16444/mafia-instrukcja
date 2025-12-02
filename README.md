@@ -10,7 +10,7 @@ Ten dokument jest przeznaczony dla Mistrzów Gry (GM), którzy prowadzą rozgryw
 
 ## Logowanie i dołączenie do gry
 
-1. Otwórz stronę aplikacji - obecny link to 83.168.88.69.
+1. Otwórz stronę aplikacji - obecny link to http://83.168.88.69/.
 2. Wpisz **nick**, zaznacz **GM** i podaj **hasło GM**.
 3. Gracze logują się, wpisując **nick** i wybierając **Gracz**.
 4. Po odświeżeniu karty GM i gracze **automatycznie wracają** do gry.  
