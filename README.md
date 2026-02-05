@@ -10,22 +10,11 @@ Ten dokument jest przeznaczony dla Mistrzów Gry (GM), którzy prowadzą rozgryw
 
 ## Logowanie i dołączenie do gry
 
-1. Otwórz stronę aplikacji - obecny link to https://mafia-dod.pl/.
+1. Otwórz stronę aplikacji – obecny link to https://mafia-dod.pl/.
 2. Wpisz **nick**, zaznacz **GM** i podaj **hasło GM**.
 3. Gracze logują się, wpisując **nick** i wybierając **Gracz**.
 4. Po odświeżeniu karty GM i gracze **automatycznie wracają** do gry.  
    W razie potrzeby użyj **Wyjdź** (prawy górny róg), aby wrócić do ekranu logowania.
-
----
-
-## Przygotowanie lobby
-
-- GM tworzy **lobby**. Gracze dołączają, używając linku dostarczonego przez GMa.
-- Gracze trafiają do **poczekalni**, gdzie są do momentu rozpoczęcia gry. Mogą dołączyć też po starcie gry, ale to GM ich wtedy **akceptuje/odrzuca**.
-- GM **przydziela role** oraz — w razie potrzeby — **oznaczenia/statusy** (patrz niżej).
-- **Sąsiedzi**: **zawsze wybierz 2 sąsiadów**.
-- **Siostry (Kawaii/Kowai)**: po wyborze jednej **druga wybiera się automatycznie**.
-- Kliknięcie **Rozpocznij grę** — start rozgrywki.
 
 ---
 
@@ -38,6 +27,7 @@ W panelu **Fazy dnia**:
 - przełączasz **Dzień/Noc**; **zmiana fazy resetuje elementy drugiej fazy**, więc **pilnuj kolejności i klikania**,
 - w Dniu obsługujesz nominacje → głosowanie → egzekucję,
 - w Nocy budzisz role (pojedynczo lub grupowo) i moderujesz ich czaty oraz akcje.
+- **Uwaga:** **przełączanie faz dnia resetuje typowania i głosowania**.
 
 > **Uwaga:** część przycisków jest **aktywna/nieaktywna** zależnie od **fazy** i **warunków** (np. Snajper tylko z amunicją).
 
@@ -63,6 +53,7 @@ W panelu **Fazy dnia**:
 - Dla części ról dostępne jest:
   - **budzenie pojedyncze** (GM klika *Następny gracz*),
   - **budzenie grupowe** (wszyscy członkowie naraz).
+- **Wskazówka:** kolejność budzenia można zmieniać **również w trakcie gry** – pamiętaj, by **zapisać** po zmianach.
 
 ### 4) Czaty ról + sterowanie mocami
 - Każda rola ma **czat**; pod czatem mogą być **przyciski sterowania mocą** (jeśli dana rola to wspiera).
@@ -70,21 +61,40 @@ W panelu **Fazy dnia**:
 
 ### 5) Wydarzenia specjalne
 - **Idą święta** – aktywacja mocy Mikołajki.
-- **Zemsta Yandere** – użyć po śmierci **Senpaia** - Yandere staje się czerwona i zaczyna zabijać co noc.
+- **Zemsta Yandere** – użyć po śmierci **Senpaia** – Yandere staje się czerwona i zaczyna zabijać co noc.
 - **KPN** – rozpoczęcie **kamień–papier–nożyce** między dowolnymi osobami z dowolnego powodu.
-- **Błazen - kradzież karty** – **kradzież karty Błazna**.
+- **Błazen – kradzież karty** – **kradzież karty Błazna**.
 - **Tworzenie kochanków** – utworzenie pary w dowolnym momencie.
 
 ### 6) Narracja i logi
 - **Log narracyjny** – podsumowania akcji (strzały, przejęcia ról itp.).
 - Dodatkowe logi (np. **Snajper**, **Grabarz**).
 - Znajduje się na samym dole strony.
+- **Specjalny log (dół strony)** – zawiera m.in.:
+  - w kogo strzelał **Sniper**,
+  - kogo wybrał **Grabarz** i **Lunatyk**,
+  - co wylosował **Jester**,
+  - co będzie miała **Bonny**,
+  - kogo wybrała ofiara **Jigsawa**,
+  - jaki wylosował się **efekt Czekoladki**.
 
 ### 7) Prywatny chat z graczem
 - GM może **pisać do graczy na priv** w dowolnym momencie (zliczane nieprzeczytane).
 
 ### 8) Reset / Narzędzia
 - **Reset gry** – czyści logi, zamyka czaty ról i wraca do **poczekalni**.
+
+### 9) Gracze i role – dodatkowe opcje
+- Możesz **ukrywać martwych graczy**.
+- Jeżeli chcesz **nadać komuś rolę, której nie było w początkowym rosterze**, użyj **specjalnej opcji** dostępnej w tym panelu.
+
+### 10) Dźwięk globalny – „Działo GMa (ale lufa)“
+- Możesz **odtworzyć graczom** dowolny plik **MP3 do 5 MB**.
+
+### 11) „Żywi według roli“
+- Po **najechaniu na nazwę roli** zobaczysz **wszystkich żywych graczy** tej roli.
+
+> **W aplikacji znajdziesz również przycisk „Poradnik GMa”** (u góry widoku GM) – otwiera skrót najważniejszych wskazówek.
 
 ---
 
@@ -132,6 +142,15 @@ W panelu **Fazy dnia**:
 - **Szekspir** – budzi się **wyłącznie w Nocy 1**.
 - **Hetera / Ojciec Chrzestny** – **Ojciec Chrzestny** to oznaczenie mafijne (nadaj ręcznie); interakcje z czatem mafii.
 - **Snajper** – budzenie **grupowe**; w **Kolejności budzenia** można przełączyć na budzenie **pojedyncze**.
+
+---
+
+## Specjalne zachowania ról (ważne)
+
+| Rola     | Zachowanie |
+|----------|------------|
+| **Weteran** | Gdy na Weterana zostanie nałożone **oznaczenie** albo zostanie **oznaczony do zabicia**, odtworzona zostaje **wskazówka dźwiękowa**. **Nie dotyczy** to przypadków użycia mocy (np. **Księdza**, **Hetery**, **Czekoladki** itd.) — w takich sytuacjach **pilnuj ręcznie**, czy interakcja dotyczy Weterana, zanim ją wykonasz. |
+| **Błazen**  | Po zwycięstwie Błazna, jeżeli wylosuje się efekt **Kradzież karty**: **połóż miasto spać** i **jako pierwszą czynność nocy** użyj panelu **Kradzież karty**. |
 
 ---
 
