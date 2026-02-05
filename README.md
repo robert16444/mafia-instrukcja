@@ -151,6 +151,7 @@ W panelu **Fazy dnia**:
 |----------|------------|
 | **Weteran** | Gdy na Weterana zostanie nałożone **oznaczenie** albo zostanie **oznaczony do zabicia**, odtworzona zostaje **wskazówka dźwiękowa**. **Nie dotyczy** to przypadków użycia mocy (np. **Księdza**, **Hetery**, **Czekoladki** itd.) — w takich sytuacjach **pilnuj ręcznie**, czy interakcja dotyczy Weterana, zanim ją wykonasz. |
 | **Błazen**  | Po zwycięstwie Błazna, jeżeli wylosuje się efekt **Kradzież karty**: **połóż miasto spać** i **jako pierwszą czynność nocy** użyj panelu **Kradzież karty**. |
+| **Ojciec Chrzestny**  | Gdy nałożysz na gracza oznaczenie **Ojciec Chrzestny**, zostanie on automatycznie w tym momencie obudzony i dołączony do chatu z Heterą. Od teraz zawsze będą budzili się razem. |
 
 ---
 
