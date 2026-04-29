@@ -84,6 +84,7 @@ W panelu **Fazy dnia**:
   - co wylosował **Jester**,
   - co będzie miała **Bonny**,
   - kogo wybrała ofiara **Jigsawa**,
+  - kogo wybrałą ofiara **Naniki**,
   - jaki wylosował się **efekt Czekoladki**.
 
 ### 7) Prywatny chat z graczem
