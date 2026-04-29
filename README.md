@@ -10,11 +10,19 @@ Ten dokument jest przeznaczony dla Mistrzów Gry (GM), którzy prowadzą rozgryw
 
 ## Logowanie i dołączenie do gry
 
-1. Otwórz stronę aplikacji – obecny link to https://mafia-dod.pl/.
-2. Wpisz **nick**, zaznacz **GM** i podaj **hasło GM**.
-3. Gracze logują się, wpisując **nick** i wybierając **Gracz**.
-4. Po odświeżeniu karty GM i gracze **automatycznie wracają** do gry.  
-   W razie potrzeby użyj **Wyjdź** (prawy górny róg), aby wrócić do ekranu logowania.
+Logowanie przez Discord - od wersji 1.1.0 aplikacja korzysta wyłącznie z logowania przez Discord dla graczy.
+
+**Gracze**
+
+Logowanie możliwe jest tylko przez Discorda. 
+
+**GM-owie**
+
+GM może logować się przez Discorda tylko jeśli jest zweryfikowany.
+
+Aby uzyskać dostęp, należy wysłać do Mańka info i dołączyć w nim swoje Discord ID.
+
+Po weryfikacji konto GM zostanie powiązane z Discordem i umożliwi szybkie logowanie bez użycia hasła.
 
 ---
 
