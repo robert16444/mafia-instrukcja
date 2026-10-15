@@ -1,4 +1,4 @@
-#Mafia DOD — Centrum Wiedzy Game Mastera
+# Mafia DOD — Centrum Wiedzy Game Mastera
 
 **Oficjalna baza wiedzy, instrukcji i materiałów dla Game Masterów Mafii DOD.**
 
